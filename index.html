@@ -12,7 +12,7 @@
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Фото и видео</a></li>
 					<li><a href="#">Карта штата</a></li>
-					<li><a href="#">Гостиницы</a></li>
+					<li><a href="sedona-hotels.html">Гостиницы</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -76,7 +76,27 @@
 				<img src="img/map-min.jpg" width="768" height="593" alt="Карта">
 				<h2>Поиск гостиницы в Седоне</h2>
 				<div class="popup">
-					<!-- Форма -->
+					<form action="http://echo.htmlacademy.ru" method="post">
+						<p>
+							<label>Дата заезда:
+								<input type="text" name="arrival" placeholder="24 апреля 2017" required>
+							</label>
+						</p>
+						<p>
+							<label>Дата выезда:
+								<input type="text" name="departure" placeholder="4 июля 2017" required>
+							</label>
+						</p>
+						<p>
+							<label>Взрослые: 
+								<input type="text" name="adults" placeholder="2" required>
+							</label>
+							<label>Дети:
+								<input type="text" name="kids" placeholder="0" required>
+							</label>
+						</p>
+						<button class="btn" type="submit">Найти</button>
+					</form>
 				</div>
 			</section>
 		</main>
