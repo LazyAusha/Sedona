@@ -20,6 +20,7 @@
 		<main class="container">
 			<h1 class="visually-hidden">Список отелей</h1>
 			<section class="filters">
+				<h2 class="visually-hidden">Фильтрация каталога</h2>
 				<form action="http://echo.htmlacademy.ru" method="get">
 					<fieldset>
 						<legend>Инфраструктура:</legend>
@@ -63,7 +64,7 @@
 					</fieldset>
 					<fieldset>
 						<legend>Стоимость в сутки (Р):</legend>
-						<output>От 0 до 3000</output>
+						<label><input type="text" name="price">От 0 до 3000</label>
 						<p>
 							<input type="range" name="price-range">
 						</p>
@@ -75,11 +76,11 @@
 			<section class="sort">
 				<b>Найдено: 3</b>
 				<h2>Сортировка:</h2>
-				<button type="button">По цене</button>
-				<button type="button">По типу</button>
-				<button type="button">По рейтингу</button>
-				<button type="button">Вверх</button>
-				<button type="button">Вниз</button>
+				<a class="sort-button" href="#">По цене</a>
+				<a class="sort-button" href="#">По типу</a>
+				<a class="sort-button" href="#">По рейтингу</a>
+				<a class="sort-button" href="#">Вверх</a>
+				<a class="sort-button" href="#">Вниз</a>
 			</section>
 
 			<section class="hotels-catalog">
@@ -126,7 +127,7 @@
 			<p class="footer-copyright">
 				Website by HTML Academy
 				<a href="http://htmlacademy.ru">
-					<img src="img/htmlacademy.png" width="100" height="100" alt="HTML Academy">
+					HTML Academy
 				</a>
 			</p>
 		</footer>
