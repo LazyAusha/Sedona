@@ -3,8 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Отели «Sedona»</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	<body class="inner-page">
 		<header class="main-header">
 			<nav class="main-navigation">
 				<a class="main-header-logo" href="index.html"><img src="img/main-logo-min.jpg" width="138" height="70" alt="Логотип «Sedona»"></a>
@@ -69,18 +72,18 @@
 							<input type="range" name="price-range">
 						</p>
 					</fieldset>
-					<button class="btn" type="button">Показать</button>
+					<button class="filter-btn" type="button">Показать</button>
 				</form>
 			</section>
 
 			<section class="sort">
 				<b>Найдено: 3</b>
 				<h2>Сортировка:</h2>
-				<a class="sort-button" href="#">По цене</a>
+				<a class="sort-button sort-button-current" href="#">По цене</a>
 				<a class="sort-button" href="#">По типу</a>
 				<a class="sort-button" href="#">По рейтингу</a>
-				<a class="sort-button" href="#">Вверх</a>
-				<a class="sort-button" href="#">Вниз</a>
+				<a class="sort-button up-button" href="#">Вверх</a>
+				<a class="sort-button sort-button-current down-button" href="#">Вниз</a>
 			</section>
 
 			<section class="hotels-catalog">
@@ -88,30 +91,30 @@
 				<ul class="hotels-list">
 					<li>
 						<img src="img/hotel-1-min.jpg" width="135" height="90" alt="Amara Resort & Spa">
-						<h2>Amara Resort &amp; Spa</h2>
+						<h2 class="title-link">Amara Resort &amp; Spa</h2>
 						<span>Гостиница</span>
 						<span>От 4000 Р.</span>
-						<span>Рейтинг: 8,5</span>
+						<span class="rate">Рейтинг: 8,5</span>
 						<a class="btn" href="#">Подробнее</a>
-						<a class="btn" href="#">Забронировать</a>
+						<a class="btn btn-book" href="#">Забронировать</a>
 					</li>
 					<li>
 						<img src="img/hotel-2-min.jpg" width="135" height="90" alt="Desert Quail Inn">
-						<h2>Desert Quail Inn</h2>
+						<h2 class="title-link">Desert Quail Inn</h2>
 						<span>Мотель</span>
 						<span>От 3000 Р.</span>
-						<span>Рейтинг: 8,9</span>
+						<span class="rate">Рейтинг: 8,9</span>
 						<a class="btn" href="#">Подробнее</a>
-						<a class="btn" href="#">Забронировать</a>
+						<a class="btn btn-book" href="#">Забронировать</a>
 					</li>
 					<li>
 						<img src="img/hotel-3-min.jpg" width="135" height="90" alt="Villas At Poco Diablo">
-						<h2>Villas at Poco Diablo</h2>
+						<h2 class="title-link">Villas at Poco Diablo</h2>
 						<span>Апартаменты</span>
 						<span>От 2000 Р.</span>
-						<span>Рейтинг: 9,2</span>
+						<span class="rate">Рейтинг: 9,2</span>
 						<a class="btn" href="#">Подробнее</a>
-						<a class="btn" href="#">Забронировать</a>
+						<a class="btn btn-book" href="#">Забронировать</a>
 					</li>
 				</ul>
 			</section>

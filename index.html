@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>«Sedona»</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -20,13 +23,15 @@
 		<main class="container">
 			<h1 class="visually-hidden">Сайт города Седона</h1>
 			<section class="features">
-					<h2>СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h2>
+					<h2 class="slogan-title">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h2>
 					<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 					<ul class="features-list">
 						<li class="feature-item reason-one">
-							<h2>Настоящий городок</h2>
-							<span>– №1 –</span>
-							<p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+							<div class="fone-container">
+								<h2>Настоящий городок</h2>
+								<span>– №1 –</span>
+								<p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+							</div>
 							<img src="img/fone-1-min.png" width="512" height="256" alt="Настоящий городок">
 							<ul class="reason-one-list">
 								<li class="feature-item">
@@ -44,9 +49,11 @@
 							</ul>
 						</li>
 						<li class="feature-item reason-two">
-							<h2>Там есть Мост дьявола</h2>
-							<span>– №2 –</span>
-							<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+							<div class="fone-container">
+								<h2>Там есть Мост дьявола</h2>
+								<span>– №2 –</span>
+								<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+							</div>
 							<img src="img/fone-2-min.png" width="512" height="256" alt="Мост дьявола">
 						</li>
 						<li class="feature-item">
@@ -60,7 +67,7 @@
 							<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
 						</li>
 						<li class="feature-item">
-							<h3>Мало туристов</h3>
+							<h2>Мало туристов</h2>
 							<span>– №5 –</span>
 							<p>Большинство едет в гранд каньон и толпится там</p>
 						</li>
@@ -70,7 +77,6 @@
 			<section class="search-tour">
 				<b>Заинтересовались?</b>
 				<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-				<img src="img/map-min.jpg" width="768" height="593" alt="Карта">
 				<h2>Поиск гостиницы в Седоне</h2>
 				<div class="popup">
 					<form action="http://echo.htmlacademy.ru" method="post">
@@ -95,6 +101,7 @@
 						<a class="btn" href="#">Найти</a>
 					</form>
 				</div>
+				<img src="img/map-min.jpg" width="768" height="593" alt="Карта">
 			</section>
 		</main>
 
